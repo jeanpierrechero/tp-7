@@ -60,7 +60,7 @@ public class Empresa {
         }
     
     }
-    public static ArrayList<Empleado> obtenerDatosDeEmpleadosMenosDe30(ArrayList<Empleado> losEmpleados){
+    public static void obtenerDatosDeEmpleadosMenosDe30(ArrayList<Empleado> losEmpleados){
         for(Empleado e: losEmpleados){
             if(e.getEdad()<30){
                 informarDatosDeEmpleados(losEmpleados);
